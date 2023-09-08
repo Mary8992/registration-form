@@ -80,3 +80,35 @@ form p a {
     text-decoration: none;
     color: #075e07;
 }
+
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #0e930e;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn-field button:hover {
+    background: #075e07;
+}
+
+.input-group {
+    height: 310px;
+}
+
+.btn-field button.disable {
+    background: #eaeaea;
+    color: #555;
+}
